@@ -2,7 +2,7 @@
 class Ebcomm_PaypalMx_Helper_Hss extends Mage_Core_Helper_Abstract
 {
     protected $_hssMethods = array(
-        Ebcomm_PaypalMx_Model_Config::METHOD_PAYPALMX,
+        //Ebcomm_PaypalMx_Model_Config::METHOD_PAYPALMX,
     );
 
     /**
