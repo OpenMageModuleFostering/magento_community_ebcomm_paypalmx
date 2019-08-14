@@ -65,7 +65,7 @@ class Ebcomm_PaypalMx_Block_Adminhtml_Settlement_Report_Grid extends Mage_Adminh
             'header'    => $settlement->getFieldLabel('transaction_event'),
             'index'     => 'transaction_event_code',
             'type'      => 'options',
-            'options'   => Mage::getModel('paypal/report_settlement_row')->getTransactionEvents()
+            'options'   => Mage::getModel('paypalmx/report_settlement_row')->getTransactionEvents()
         ));
         $this->addColumn('transaction_initiation_date', array(
             'header'    => $settlement->getFieldLabel('transaction_initiation_date'),
