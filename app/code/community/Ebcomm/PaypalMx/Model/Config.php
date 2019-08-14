@@ -751,6 +751,7 @@ class Ebcomm_PaypalMx_Model_Config
      */
     public function getBuildNotationCode($countryCode = null)
     {
+        /*
         $product = 'WPP';
         if ($this->_methodCode && isset($this->_buildNotationPPMap[$this->_methodCode])) {
             $product = $this->_buildNotationPPMap[$this->_methodCode];
@@ -762,6 +763,8 @@ class Ebcomm_PaypalMx_Model_Config
             $countryCode = '_' . $countryCode;
         }
         return sprintf('Varien_Cart_%s%s', $product, $countryCode);
+        */
+        return "MagentoMXExtension_SI_MagentoCE";
     }
 
     /**
