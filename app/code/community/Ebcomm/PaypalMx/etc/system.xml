@@ -63,7 +63,7 @@
                                         <fields>
                                             <business_account translate="label comment tooltip">
                                                 <label>Email asociado con PayPal Merchant Account</label>
-                                                <comment><![CDATA[<a style="cursor:pointer" onclick="javascript:window.open('https://www.paypal.com/mx/webapps/mpp/referral/paypal-business-account2?partner_id=88FPTPUV43C3A','ppmx','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, ,left=0, top=0, width=1100, height=650');"> Empieza a recibir pagos con PayPal</a>]]></comment>
+                                                <comment><![CDATA[<a style="cursor:pointer" onclick="javascript:window.open('https://www.paypal.com/mx/webapps/mpp/referral/paypal-business-account2?partner_id=ZTLPZRKATXU4','ppmx','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, ,left=0, top=0, width=1100, height=650');"> Empieza a recibir pagos con PayPal</a>]]></comment>
                                                 <tooltip>No tienes cuenta de Paypal? Simplemente agrega tu correo.</tooltip>
                                                 <config_path>paypalmx/general/business_account</config_path>
                                                 <show_in_default>1</show_in_default>
