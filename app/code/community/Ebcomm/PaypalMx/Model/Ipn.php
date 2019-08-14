@@ -144,6 +144,11 @@ class Ebcomm_PaypalMx_Model_Ipn
         if (empty($this->_order)) {
             // get proper order
             $id = $this->_request['invoice'];
+            // jmartinez: obtain real invoiceId from "<invoiceId>MGT<timestamp>"
+            $mgtPos = strpos($id, 'MGT');
+            if($mgtPos !== false) {
+                $id = substr($id, 0, $mgtPos);
+            }
             $this->_order = Mage::getModel('sales/order')->loadByIncrementId($id);
             if (!$this->_order->getId()) {
                 $this->_debugData['exception'] = sprintf('Wrong order ID: "%s".', $id);
