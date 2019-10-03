@@ -1,34 +1,5 @@
 {
-    "name": "OpenMageModuleFostering/magento_community_Ebcomm_PaypalMx",
-    "type": "magento-module",
-    "license": "OSL-v3.0",
-    "homepage": "",
-    "description": "PayPal es la forma más fácil, rápida y segura de enviar y recibir pagos en línea. Los comercios
-
-en México que habilitan PayPal como forma de pago pueden aceptar pagos en línea con las 
-
-principales tarjetas de crédito y débito y con el saldo de las cuentas PayPal. Este módulo, diseñado 
-
-por el equipo de PayPal México, está optimizado especialmente para comercios mexicanos y 
-
-cuenta con los ajustes necesarios para comunicar de la mejor manera las diferentes alternativas 
-
-de pago con PayPal y ayudar a maximizar la conversión. También pueden ofrecer a sus clientes 
-
-pagos en mensualidades. La integración es sencilla, sin cargos por apertura ni comisiones 
-
-mensuales.
-
-Los comercios que integran las soluciones de PayPal cuentan con una serie de funcionalidades 
-
-que les ayudarán a impulsar sus ventas de comercio electrónico.",
-    "authors": [
-    {
-        "name": "Armando Mart\u00ednez",
-        "email": "jmartinez@ebcomm.mx"
-    }
-],
-    "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+    "keywords": [
+        "openmage-module"
+    ]
 }
