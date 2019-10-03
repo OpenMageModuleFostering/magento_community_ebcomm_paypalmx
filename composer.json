@@ -1,5 +1,7 @@
 {
     "keywords": [
         "openmage-module"
-    ]
+    ],
+    "name": "openmage-module-fostering\/magento_community_ebcomm_paypalmx",
+    "license": "OSL-3.0"
 }
